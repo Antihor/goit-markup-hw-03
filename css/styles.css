@@ -49,7 +49,10 @@ p {
   letter-spacing: 0.03em;
   color: var(--accent-color);
   text-decoration: none;
-  margin-right: 90px;
+  margin-right: 93px;
+}
+.logo-footer {
+  margin: 0;
 }
 .logo-color {
   color: var(--title-text-color);
@@ -120,7 +123,6 @@ p {
 }
 .hero {
   background-color: #2f303a;
-
   align-items: center;
   text-align: center;
   padding-top: 200px;
@@ -190,15 +192,15 @@ p {
 .team {
   display: flex;
 }
+.team-section {
+  display: flex;
+  background-color: #f5f4fa;
+}
 .card:not(:last-child) {
   margin-right: 30px;
 }
 .card-data {
   padding: 30px 0;
-}
-.section,
-.team {
-  background-color: #f5f4fa;
 }
 .section-title {
   font-weight: 700;
@@ -214,6 +216,9 @@ p {
   line-height: 1.88;
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
+}
+.section-pics {
+  padding-top: 0;
 }
 .name {
   font-weight: 500;
@@ -242,8 +247,7 @@ p {
   padding: 6px 25px;
   border: 1px solid transparent;
   border-radius: 4px;
-  margin-right: 8px;
-}
+  }
 .btn:hover,
 .btn:focus,
 .btn-active {
@@ -297,7 +301,10 @@ p {
 .filters {
   display: flex;
   justify-content: center;
-  margin-bottom: 34px;
+  margin-bottom: 50px;
+}
+.filter-item:not(:last-child) {
+  margin-right: 8px;
 }
 .projects {
   display: flex;
